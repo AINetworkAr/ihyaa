@@ -9,110 +9,104 @@
 ## الفهرس
 
 
-* [محرك الرسوم ثلاثية الأبعاد](#build-your-own-3d-renderer)
-* [الواقع المعزز](#build-your-own-augmented-reality)
+* [محرك الرسوم ثلاثية الأبعاد (3D Renderer)](#build-your-own-3d-renderer)
+* [الواقع المعزز - AR](#build-your-own-augmented-reality)
 * [عميل بِت تُورنت (BitTorrent)](#build-your-own-bittorrent-client)
 * [البلوكشين / العملة المشفرة](#build-your-own-blockchain--cryptocurrency)
-* [الروبوت](#build-your-own-bot)
-* [أداة سطر الأوامر](#build-your-own-command-line-tool)
+* [الروبوت - Robot](#build-your-own-bot)
+* [أداة سطر الأوامر - Command Line Tool](#build-your-own-command-line-tool)
 * [قاعدة البيانات](#build-your-own-database)
-* [دوكر](#build-your-own-docker)
+* [دوكر - Docker](#build-your-own-docker)
 * [محاكي / آلة افتراضية](#build-your-own-emulator--virtual-machine)
 * [إطار العمل / المكتبة الأمامية](#build-your-own-front-end-framework--library)
 * [لعبة](#build-your-own-game)
 * [جِت (Git)](#build-your-own-git)
 * [كومة الشبكة (Network Stack)](#build-your-own-network-stack)
-* [الشبكة العصبية](#build-your-own-neural-network)
-* [نظام التشغيل](#build-your-own-operating-system)
-* [مُحرك الفيزياء](#build-your-own-physics-engine)
+* [الشبكة العصبية (Neural Network)](#build-your-own-neural-network)
+* [نظام التشغيل - OS](#build-your-own-operating-system)
+* [مُحرك الفيزياء (Physics Engine)](#build-your-own-physics-engine)
 * [لغة البرمجة](#build-your-own-programming-language)
 * [مُحرّك البحث العادي (Regex Engine)](#build-your-own-regex-engine)
 * [محرك البحث](#build-your-own-search-engine)
 * [القِشرة (Shell)](#build-your-own-shell)
-* [مُحرك القوالب](#build-your-own-template-engine)
-* [محرر النصوص](#build-your-own-text-editor)
+* [مُحرك القوالب (Template Engine)](#build-your-own-template-engine)
+* [محرر النصوص (Text Editor)](#build-your-own-text-editor)
 * [نظام التعرف البصري](#build-your-own-visual-recognition-system)
 * [مُحرك الفوكسل (Voxel Engine)](#build-your-own-voxel-engine)
 * [متصفح الويب](#build-your-own-web-browser)
-* [خادم الويب](#build-your-own-web-server)
+* [خادم الويب - Web Server](#build-your-own-web-server)
 * [غير مصنف](#uncategorized)
 <br></br>
 
 ## المصادر
 
-#### Build your own `3D Renderer`
+#### أنشئ `مُحرّك الرسوم ثلاثية الأبعاد`
 
-* [**C++**: _Introduction to Ray Tracing: a Simple Method for Creating 3D Images_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
-* [**C++**: _How OpenGL works: software rendering in 500 lines of code_](https://github.com/ssloy/tinyrenderer/wiki)
-* [**C++**: _Raycasting engine of Wolfenstein 3D_](http://lodev.org/cgtutor/raycasting.html)
-* [**C++**: _Physically Based Rendering:From Theory To Implementation_](http://www.pbr-book.org/)
-* [**C++**: _Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
-* [**C++**: _Rasterization: a Practical Implementation_](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm)
-* [**C# / TypeScript / JavaScript**: _Learning how to write a 3D soft engine from scratch in C#, TypeScript or JavaScript_](https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d-soft-engine-from-scratch-in-c-typescript-or-javascript/)
-* [**Java / JavaScript**: _Build your own 3D renderer_](https://avik-das.github.io/build-your-own-raytracer/)
-* [**Java**: _How to create your own simple 3D render engine in pure Java_](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
-* [**JavaScript / Pseudocode**: _Computer Graphics from scratch_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
-* [**Python**: _A 3D Modeller_](http://aosabook.org/en/500L/a-3d-modeller.html)
+* [**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
+* [**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
+* [**C++**: _محرك راي كاستنغ للعبة Wolfenstein 3D_](http://lodev.org/cgtutor/raycasting.html)
+* [**C++**: _تجسيد الرسومات بناءً على المبادئ الفيزيائية: من النظرية إلى التطبيق_](http://www.pbr-book.org/)
+* [**C++**: _تتبع الأشعة في عطلة نهاية الأسبوع_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+* [**C++**: _تنفيذ عملي للتخطيط النقطي: عرض عام لخوارزمية التخطيط النقطي_](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm)
+* [**C# / TypeScript / JavaScript**: _تعلم كيفية كتابة مُحرّك رسوم ثلاثي الأبعاد من البداية باستخدام C# أو TypeScript أو JavaScript_](https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d-soft-engine-from-scratch-in-c-typescript-or-javascript/)
+* [**Java / JavaScript**: _ابنِ مُحرّك الرسوم ثلاثية الأبعاد الخاص بك_](https://avik-das.github.io/build-your-own-raytracer/)
+* [**Java**: _كيفية إنشاء مُحرّك رسوم ثلاثي الأبعاد بسيط الخاص بك باستخدام جافا النقية_](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
+* [**JavaScript / Pseudocode**: _رسومات الحاسوب من البداية_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
+* [**Python**: _مُصمم ثلاثي الأبعاد_](http://aosabook.org/en/500L/a-3d-modeller.html)
 
-#### Build your own `Augmented Reality`
+#### أنشئ `الواقع المعزز - Augmented Reality`
 
-* [**C#**: _How To: Augmented Reality App Tutorial for Beginners with Vuforia and Unity 3D_](https://www.youtube.com/watch?v=uXNjNcqW4kY) [video]
-* [**C#**: _How To Unity ARCore_](https://www.youtube.com/playlist?list=PLKIKuXdn4ZMjuUAtdQfK1vwTZPQn_rgSv) [video]
-* [**C#**: _AR Portal Tutorial with Unity_](https://www.youtube.com/playlist?list=PLPCqNOwwN794Gz5fzUSi1p4OqLU0HTmvn) [video]
-* [**C#**: _How to create a Dragon in Augmented Reality in Unity ARCore_](https://www.youtube.com/watch?v=qTSDPkPyPqs) [video]
-* [**C#**: _How to Augmented Reality AR Tutorial: ARKit Portal to the Upside Down_](https://www.youtube.com/watch?v=Z5AmqMuNi08) [video]
-* [**Python**: _Augmented Reality with Python and OpenCV_](https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/)
+* [**C#**: _كيفية: دليل تطبيق واقع مُعزز للمبتدئين باستخدام Vuforia وUnity 3D_](https://www.youtube.com/watch?v=uXNjNcqW4kY) [فيديو]
+* [**C#**: _كيفية استخدام Unity ARCore_](https://www.youtube.com/playlist?list=PLKIKuXdn4ZMjuUAtdQfK1vwTZPQn_rgSv) [فيديو]
+* [**C#**: _دليل تعليمي للبوابة المُعززة باستخدام Unity_](https://www.youtube.com/playlist?list=PLPCqNOwwN794Gz5fzUSi1p4OqLU0HTmvn) [فيديو]
+* [**C#**: _كيفية إنشاء تنين في الواقع المُعزز باستخدام Unity ARCore_](https://www.youtube.com/watch?v=qTSDPkPyPqs) [فيديو]
+* [**C#**: _دليل تعليمي للواقع المُعزز: بوابة ARKit إلى العالم العكسي_](https://www.youtube.com/watch?v=Z5AmqMuNi08) [فيديو]
+* [**Python**: _الواقع المعزز باستخدام Python وOpenCV_](https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/)
 
-#### Build your own `BitTorrent Client`
+#### أنشئ `البلوكشين / العملة المشفرة`
 
-* [**C#**: _Building a BitTorrent client from scratch in C#_](https://www.seanjoflynn.com/research/bittorrent.html)
-* [**Go**: _Building a BitTorrent client from the ground up in Go_](https://blog.jse.li/posts/torrent/)
-* [**Nim**: _Writing a Bencode Parser_](https://xmonader.github.io/nimdays/day02_bencode.html)
-* [**Node.js**: _Write your own bittorrent client_](https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html)
-* [**Python**: _A BitTorrent client in Python 3.5_](http://markuseliasson.se/article/bittorrent-in-python/)
+* [**ATS**: _البلوكشين الوظيفي_](https://beta.observablehq.com/@galletti94/functional-blockchain)
+* [**C#**: _برمجة البلوكشين باستخدام لغة البرمجة C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
+* [**Crystal**: _قم بكتابة البلوكشين الخاص بك وخوارزمية PoW باستخدام لغة Crystal_](https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52)
+* [**Go**: _بناء البلوكشين باستخدام لغة Go_](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
+* [**Go**: _اكتب البلوكشين الخاص بك في أقل من 200 سطر من لغة Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
+* [**Java**: _إنشاء أول بلوكشين خاص بك باستخدام لغة جافا_](https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa)
+* [**JavaScript**: _تنفيذ عملة مشفرة في أقل من 1500 سطر من الكود_](https://github.com/conradoqg/naivecoin)
+* [**JavaScript**: _ابنِ البلوكشين الخاص بك باستخدام لغة JavaScript_](https://github.com/nambrot/blockchain-in-js)
+* [**JavaScript**: _تعلم وابنِ بلوكشين JavaScript_](https://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e)
+* [**JavaScript**: _إنشاء بلوكشين باستخدام لغة JavaScript_](https://github.com/SavjeeTutorials/SavjeeCoin)
+* [**JavaScript**: _كيفية إطلاق عملة مشفرة جاهزة للإنتاج الخاصة بك_](https://hackernoon.com/how-to-launch-your-own-production-ready-cryptocurrency-ab97cb773371)
+* [**JavaScript**: _كتابة بلوكشين في Node.js_](https://www.hackdoor.io/articles/writing-a-blockchain-in-nodejs-6512fec33307)
+* [**Kotlin**: _لنقم بتنفيذ عملة مشفرة باستخدام Kotlin_](https://medium.com/@vasilyf/lets-implement-a-cryptocurrency-in-kotlin-part-1-blockchain-8704069f8580)
+* [**Python**: _تعلم البلوكشين من خلال بناء واحد_](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
+* [**Python**: _ابنِ بلوكشين خاص بك: دليل تعليمي باستخدام لغة Python_](http://ecomunsing.com/build-your-own-blockchain)
+* [**Python**: _مقدمة عملية إلى البلوكشين باستخدام لغة Python_](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
+* [**Python**: _لنقم ببناء أصغر بلوكشين_](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
+* [**Ruby**: _برمجة البلوكشين خطوة بخطوة (نسخة الكتاب)_](https://github.com/yukimotopress/programming-blockchains-step-by-step)
+* [**Scala**: _كيفية بناء بلوكشين مبني على الممثلات البسيط_](https://medium.freecodecamp.org/how-to-build-a-simple-actor-based-blockchain-aac1e996c177)
+* [**TypeScript**: _نايفكوين: دليل تعليمي لبناء عملة مشفرة_](https://lhartikk.github.io/)
+* [**TypeScript**: _نايفكوينستايك: دليل تعليمي لبناء عملة مشفرة بالاعتماد على نظام Proof of Stake_](https://naivecoinstake.learn.uno/)
 
-#### Build your own `Blockchain / Cryptocurrency`
+#### أنشئ `الروبوت - Robot`
 
-* [**ATS**: _Functional Blockchain_](https://beta.observablehq.com/@galletti94/functional-blockchain)
-* [**C#**: _Programming The Blockchain in C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
-* [**Crystal**: _Write your own blockchain and PoW algorithm using Crystal_](https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52)
-* [**Go**: _Building Blockchain in Go_](https://jeiwan.net/posts/building-blockchain-in-go-part-1/)
-* [**Go**: _Code your own blockchain in less than 200 lines of Go_](https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
-* [**Java**: _Creating Your First Blockchain with Java_](https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa)
-* [**JavaScript**: _A cryptocurrency implementation in less than 1500 lines of code_](https://github.com/conradoqg/naivecoin)
-* [**JavaScript**: _Build your own Blockchain in JavaScript_](https://github.com/nambrot/blockchain-in-js)
-* [**JavaScript**: _Learn & Build a JavaScript Blockchain_](https://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e)
-* [**JavaScript**: _Creating a blockchain with JavaScript_](https://github.com/SavjeeTutorials/SavjeeCoin)
-* [**JavaScript**: _How To Launch Your Own Production-Ready Cryptocurrency_](https://hackernoon.com/how-to-launch-your-own-production-ready-cryptocurrency-ab97cb773371)
-* [**JavaScript**: _Writing a Blockchain in Node.js_](https://www.hackdoor.io/articles/writing-a-blockchain-in-nodejs-6512fec33307)
-* [**Kotlin**: _Let’s implement a cryptocurrency in Kotlin_](https://medium.com/@vasilyf/lets-implement-a-cryptocurrency-in-kotlin-part-1-blockchain-8704069f8580)
-* [**Python**: _Learn Blockchains by Building One_](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
-* [**Python**: _Build your own blockchain: a Python tutorial_](http://ecomunsing.com/build-your-own-blockchain)
-* [**Python**: _A Practical Introduction to Blockchain with Python_](http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/)
-* [**Python**: _Let’s Build the Tiniest Blockchain_](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
-* [**Ruby**: _Programming Blockchains Step-by-Step (Manuscripts Book Edition)_](https://github.com/yukimotopress/programming-blockchains-step-by-step)
-* [**Scala**: _How to build a simple actor-based blockchain_](https://medium.freecodecamp.org/how-to-build-a-simple-actor-based-blockchain-aac1e996c177)
-* [**TypeScript**: _Naivecoin: a tutorial for building a cryptocurrency_](https://lhartikk.github.io/)
-* [**TypeScript**: _NaivecoinStake: a tutorial for building a cryptocurrency with the Proof of Stake consensus_](https://naivecoinstake.learn.uno/)
+* [**Haskell**: _اصنع الروبوت الخاص بك في IRC_](https://wiki.haskell.org/Roll_your_own_IRC_bot)
+* [**Java**: _كيفية إنشاء روبوت روسي مخيف على Twitter باستخدام لغة Java_](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)
+* [**Node.js**: _إنشاء روبوت بسيط للذكاء الاصطناعي في Facebook Messenger باستخدام API.ai في Node.js_](https://tutorials.botsfloor.com/creating-a-simple-facebook-messenger-ai-bot-with-api-ai-in-node-js-50ae2fa5c80d)
+* [**Node.js**: _كيفية جعل روبوت تيليجرام استجابة_](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)
+* [**Node.js**: _أنشئ روبوت Discord_](https://discordjs.guide/)
+* [**Node.js**: _gifbot - بناء تطبيق GitHub_](https://blog.scottlogic.com/2017/05/22/gifbot-github-integration.html)
 
-#### Build your own `Bot`
+* [**Node.js**: _بناء روبوت ذكاء اصطناعي بسيط باستخدام واجهة Web Speech API وNode.js_](https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/)
 
-* [**Haskell**: _Roll your own IRC bot_](https://wiki.haskell.org/Roll_your_own_IRC_bot)
-* [**Java**: _How To Make a Scary Russian Twitter Bot With Java_](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)
-* [**Node.js**: _Creating a Simple Facebook Messenger AI Bot with API.ai in Node.js_](https://tutorials.botsfloor.com/creating-a-simple-facebook-messenger-ai-bot-with-api-ai-in-node-js-50ae2fa5c80d)
-* [**Node.js**: _How to make a responsive telegram bot_](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)
-* [**Node.js**: _Create a Discord bot_](https://discordjs.guide/)
-* [**Node.js**: _gifbot - Building a GitHub App_](https://blog.scottlogic.com/2017/05/22/gifbot-github-integration.html)
-* [**Node.js**: _Building A Simple AI Chatbot With Web Speech API And Node.js_](https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/)
-* [**Python**: _How to Build Your First Slack Bot with Python_](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
-* [**Python**: _How to build a Slack Bot with Python using Slack Events API & Django under 20 minute_](https://medium.com/freehunch/how-to-build-a-slack-bot-with-python-using-slack-events-api-django-under-20-minute-code-included-269c3a9bf64e)
-* [**Python**: _Build a Reddit Bot_](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
-* [**Python**: _How To Make A Reddit Bot_](https://www.youtube.com/watch?v=krTUf7BpTc0) [video]
-* [**Python**: _How To Create a Telegram Bot Using Python_](https://khashtamov.com/en/how-to-create-a-telegram-bot-using-python/)
-* [**Python**: _Create a Twitter Bot in Python Using Tweepy_](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
-* [**Python**: _Creating Reddit Bot with Python & PRAW_](https://www.youtube.com/playlist?list=PLIFBTFgFpoJ9vmYYlfxRFV6U_XhG-4fpP) [video]
-* [**R**: _Build A Cryptocurrency Trading Bot with R_](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
-* [**Rust**: _A bot for Starcraft in Rust, C or any other language_](https://habr.com/en/post/436254/)
+* [**Python**: _كيفية إنشاء روبوت Slack الخاص بك باستخدام لغة Python_](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
+* [**Python**: _كيفية بناء روبوت Slack باستخدام Slack Events API وDjango في أقل من 20 دقيقة_](https://medium.com/freehunch/how-to-build-a-slack-bot-with-python-using-slack-events-api-django-under-20-minute-code-included-269c3a9bf64e)
+* [**Python**: _أنشئ روبوت Reddit_](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
+* [**Python**: _كيفية عمل روبوت Reddit_](https://www.youtube.com/watch?v=krTUf7BpTc0) [فيديو]
+* [**Python**: _كيفية إنشاء روبوت تيليجرام باستخدام لغة Python_](https://khashtamov.com/en/how-to-create-a-telegram-bot-using-python/)
+* [**Python**: _أنشئ روبوت Twitter باستخدام Tweepy ولغة Python_](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
+* [**Python**: _إنشاء روبوت Reddit باستخدام لغة Python ومكتبة PRAW_](https://www.youtube.com/playlist?list=PLIFBTFgFpoJ9vmYYlfxRFV6U_XhG-4fpP) [فيديو]
+* [**R**: _ابنِ روبوت تداول العملات المشفرة باستخدام لغة R_](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
+* [**Rust**: _روبوت للعب لعبة Starcraft باستخدام لغة Rust أو لغة أخرى_](https://habr.com/en/post/436254/)
 
 #### Build your own `Command-Line Tool`
 
