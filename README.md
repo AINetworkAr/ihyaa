@@ -44,19 +44,18 @@
 
 <div dir="rtl">
 
-* [**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
-* [**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
-* [**C++**: _محرك راي كاستنغ للعبة Wolfenstein 3D_](http://lodev.org/cgtutor/raycasting.html)
-* [**C++**: _تجسيد الرسومات بناءً على المبادئ الفيزيائية: من النظرية إلى التطبيق_](http://www.pbr-book.org/)
-* [**C++**: _تتبع الأشعة في عطلة نهاية الأسبوع_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
-* [**C++**: _تنفيذ عملي للتخطيط النقطي: عرض عام لخوارزمية التخطيط النقطي_](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm)
-* [**C# / TypeScript / JavaScript**: _تعلم كيفية كتابة مُحرّك رسوم ثلاثي الأبعاد من البداية باستخدام C# أو TypeScript أو JavaScript_](https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d-soft-engine-from-scratch-in-c-typescript-or-javascript/)
-* [**Java / JavaScript**: _ابنِ مُحرّك الرسوم ثلاثية الأبعاد الخاص بك_](https://avik-das.github.io/build-your-own-raytracer/)
-* [**Java**: _كيفية إنشاء مُحرّك رسوم ثلاثي الأبعاد بسيط الخاص بك باستخدام جافا النقية_](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
-* [**JavaScript / Pseudocode**: _رسومات الحاسوب من البداية_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
-* [**Python**: _مُصمم ثلاثي الأبعاد_](http://aosabook.org/en/500L/a-3d-modeller.html)
+* ‎‏[**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
+* ‎‏[**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
+* ‎‏[**C++**: _محرك راي كاستنغ للعبة Wolfenstein 3D_](http://lodev.org/cgtutor/raycasting.html)
+* ‎‏[**C++**: _تجسيد الرسومات بناءً على المبادئ الفيزيائية: من النظرية إلى التطبيق_](http://www.pbr-book.org/)
+* ‎‏[**C++**: _تتبع الأشعة في عطلة نهاية الأسبوع_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+* ‎‏[**C++**: _تنفيذ عملي للتخطيط النقطي: عرض عام لخوارزمية التخطيط النقطي_](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm)
+* ‎‏[**C# / TypeScript / JavaScript**: _تعلم كيفية كتابة مُحرّك رسوم ثلاثي الأبعاد من البداية باستخدام C# أو TypeScript أو JavaScript_](https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d-soft-engine-from-scratch-in-c-typescript-or-javascript/)
+* ‎‏[**Java / JavaScript**: _ابنِ مُحرّك الرسوم ثلاثية الأبعاد الخاص بك_](https://avik-das.github.io/build-your-own-raytracer/)
+* ‎‏[**Java**: _كيفية إنشاء مُحرّك رسوم ثلاثي الأبعاد بسيط الخاص بك باستخدام جافا النقية_](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
+* ‎‏[**JavaScript / Pseudocode**: _رسومات الحاسوب من البداية_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
+* ‎‏[**Python**: _مُصمم ثلاثي الأبعاد_](http://aosabook.org/en/500L/a-3d-modeller.html)
 
-</div>
 
 
 #### أنشئ `الواقع المعزز - Augmented Reality`
