@@ -42,6 +42,8 @@
 
 #### أنشئ `مُحرّك الرسوم ثلاثية الأبعاد`
 
+<dir="rtl">
+
 * [**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
 * [**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
 * [**C++**: _محرك راي كاستنغ للعبة Wolfenstein 3D_](http://lodev.org/cgtutor/raycasting.html)
@@ -53,6 +55,9 @@
 * [**Java**: _كيفية إنشاء مُحرّك رسوم ثلاثي الأبعاد بسيط الخاص بك باستخدام جافا النقية_](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html)
 * [**JavaScript / Pseudocode**: _رسومات الحاسوب من البداية_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
 * [**Python**: _مُصمم ثلاثي الأبعاد_](http://aosabook.org/en/500L/a-3d-modeller.html)
+
+</div>
+
 
 #### أنشئ `الواقع المعزز - Augmented Reality`
 
