@@ -8,38 +8,39 @@
 
 ## الفهرس
 
+<!-- 
+* [محرك الرسوم ثلاثية الأبعاد (3D Renderer)](#build-your-own-3d-renderer) -->
+* [أنشئ مُحرّك الرسوم ثلاثية الأبعاد](#أنشئ-مُحرّك-الرسوم-ثلاثية-الأبعاد)
 
-* [محرك الرسوم ثلاثية الأبعاد (3D Renderer)](#build-your-own-3d-renderer)
-* [الواقع المعزز - AR](#build-your-own-augmented-reality)
-* [عميل بِت تُورنت (BitTorrent)](#build-your-own-bittorrent-client)
-* [البلوكشين / العملة المشفرة](#build-your-own-blockchain--cryptocurrency)
-* [الروبوت - Robot](#build-your-own-bot)
-* [أداة سطر الأوامر - Command Line Tool](#build-your-own-command-line-tool)
-* [قاعدة البيانات](#build-your-own-database)
-* [دوكر - Docker](#build-your-own-docker)
-* [محاكي / آلة افتراضية](#build-your-own-emulator--virtual-machine)
-* [إطار العمل / المكتبة الأمامية](#build-your-own-front-end-framework--library)
-* [لعبة](#build-your-own-game)
-* [جِت (Git)](#build-your-own-git)
-* [كومة الشبكة (Network Stack)](#build-your-own-network-stack)
-* [الشبكة العصبية (Neural Network)](#build-your-own-neural-network)
-* [نظام التشغيل - OS](#build-your-own-operating-system)
-* [مُحرك الفيزياء (Physics Engine)](#build-your-own-physics-engine)
-* [لغة البرمجة](#build-your-own-programming-language)
-* [مُحرّك البحث العادي (Regex Engine)](#build-your-own-regex-engine)
-* [محرك البحث](#build-your-own-search-engine)
-* [واجهة الأوامر (Shell)](#build-your-own-shell)
-* [مُحرك القوالب (Template Engine)](#build-your-own-template-engine)
-* [محرر النصوص (Text Editor)](#build-your-own-text-editor)
-* [نظام التعرف البصري](#build-your-own-visual-recognition-system)
-* [مُحرك الفوكسل (Voxel Engine)](#build-your-own-voxel-engine)
-* [متصفح الويب](#build-your-own-web-browser)
-* [خادم الويب - Web Server](#build-your-own-web-server)
+* [الواقع المعزز - AR](#أنشئ-الواقع-المعزز---augmented-reality)
+* [عميل بِت تُورنت (BitTorrent Client)](#أنشئ-bittorrent-client)
+* [البلوكشين Cryptocurrency / Blockchain العملة المشفرة](#أنشئ-البلوكشين--العملة-المشفرة)
+* [الروبوت - Robot](#أنشئ-الروبوت---robot)
+* [أداة سطر الأوامر - Command Line Tool](#أنشئ-أداة-سطر-الأوامر---cli)
+* [قاعدة البيانات](#أنشئ-قاعدة-بيانات)
+* [دوكر - Docker](#أنشئ-دوكر---docker)
+* [محاكي / آلة افتراضية](#أنشئ-محاكي---جهاز-افتراضي)
+* [إطار العمل / المكتبة الأمامية](#أنشئ-front-end-framework---library)
+* [لعبة](#أنشئ-لعبة)
+* [جِت (Git)](#أنشئ-git)
+* [كومة الشبكة (Network Stack)](#أنشئ-network-stack)
+* [الشبكة العصبية (Neural Network)](#أنشئ-الشبكة-العصبية---neural-network)
+* [نظام التشغيل - OS](#أنشئ-نظام-تشغيل---opertion-system)
+* [مُحرك الفيزياء (Physics Engine)](##انشئ-محرك-فزيائي--physics-engine)
+* [لغة البرمجة](#انشئ-لغة-برمجة)
+* [مُحرّك البحث العادي (Regex Engine)](#انشئ-تعبير-نمطي---regex)
+* [محرك البحث](#انشئ-محرك-بحث---search-engine)
+* [واجهة الأوامر (Shell)](#انشئ-واجهة-أوامر---shell)
+* [مُحرك القوالب (Template Engine)](#انشئ-محرك-القوالب---template-engine)
+* [محرر النصوص (Text Editor)](#انشئ-محرر-النصوص)
+* [نظام التعرف البصري](#انشئ-نظام-التعرف-البصري)
+* [مُحرك الفوكسل (Voxel Engine)](#انشئ--محرك-الفوكسل---voxel-engine)
+* [متصفح الويب](#انشئ-متصفح-الويب---web-browser)
+* [خادم الويب - Web Server](#انشئ-خادم-الويب---web-server)
 * [غير مصنف](#غير-مصنف)
 <br></br>
 
 ## المصادر
-
 
 
 
@@ -71,9 +72,21 @@
 * [**C#**: _دليل تعليمي للواقع المُعزز: بوابة ARKit إلى العالم العكسي_](https://www.youtube.com/watch?v=Z5AmqMuNi08) [فيديو]
 * [**Python**: _الواقع المعزز باستخدام Python وOpenCV_](https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/)
 
-#### أنشئ `البلوكشين / العملة المشفرة`
+
+#### أنشئ `BitTorrent Client`
 
 > هو برنامج يسمح للمستخدم بتحميل ومشاركة الملفات عبر شبكة الانترنت باستخدام بروتوكول BitTorrent، حيث يتم توزيع أجزاء الملفات بين المشاركين بدلاً من الاعتماد على مصدر واحد.
+
+
+* [**C#**: _بناء عميل BitTorrent من البداية باستخدام C#_](https://www.seanjoflynn.com/research/bittorrent.html)
+* [**Go**: _بناء عميل BitTorrent خطوة بخطوة باستخدام Go_](https://blog.jse.li/posts/torrent/)
+* [**Nim**: _كتابة محلل Bencode_](https://xmonader.github.io/nimdays/day02_bencode.html)
+* [**Node.js**: _كتابة عميل bittorrent الخاص بك_](https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html)
+* [**Python**: _عميل BitTorrent بلغة Python 3.5_](http://markuseliasson.se/article/bittorrent-in-python/)
+
+#### أنشئ `البلوكشين / العملة المشفرة`
+
+>  هي تقنية للسجل الرقمي تعتمد على تسلسل متتابع للبيانات المشفرة والمرتبطة ببعضها البعض في كتل لا يمكن تعديلها
 
 * [**ATS**: _البلوكشين الوظيفي_](https://beta.observablehq.com/@galletti94/functional-blockchain)
 * [**C#**: _برمجة البلوكشين باستخدام لغة البرمجة C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
@@ -240,7 +253,7 @@
 * [**Rust**: _مغامرات في Rust: لعبة ثنائية الأبعاد أساسية_](https://a5huynh.github.io/posts/2018/adventures-in-rust/)
 * [**Rust**: _دورة تعليمية لروغلايك بلغة Rust + tcod_](https://tomassedovic.github.io/roguelike-tutorial/)
 
-#### قم ببناء `Git` الخاص بك
+#### أنشئ `Git`
 
 > نظام إدارة الإصدارات يُستخدم لتتبع وإدارة التغييرات في ملفات المشروعات البرمجية.
 
