@@ -42,7 +42,7 @@
 
 #### أنشئ `مُحرّك الرسوم ثلاثية الأبعاد`
 
-<dir="rtl">
+<div dir="rtl">
 
 * [**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
 * [**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
