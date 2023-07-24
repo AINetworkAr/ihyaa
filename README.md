@@ -1,5 +1,5 @@
 ## إحياء التكنولوجيا
-هذا المشروع هو مجموعة من الدلائل المكتوبة بشكل جيد وخطوة بخطوة لإعادة إنشاء وإحياء التكنولوجيات من البداية.
+هذا المشروع هو مجموعة من مختلف المصادر المصورة و المكتوبة بشكل جيد وخطوة بخطوة لإعادة إنشاء وإحياء التكنولوجيات من البداية.
 
 > "ما لا أستطيع أن أصنعه, لا أفهمه." - ريتشارد فينمان.
 
@@ -28,14 +28,14 @@
 * [لغة البرمجة](#build-your-own-programming-language)
 * [مُحرّك البحث العادي (Regex Engine)](#build-your-own-regex-engine)
 * [محرك البحث](#build-your-own-search-engine)
-* [القِشرة (Shell)](#build-your-own-shell)
+* [واجهة الأوامر (Shell)](#build-your-own-shell)
 * [مُحرك القوالب (Template Engine)](#build-your-own-template-engine)
 * [محرر النصوص (Text Editor)](#build-your-own-text-editor)
 * [نظام التعرف البصري](#build-your-own-visual-recognition-system)
 * [مُحرك الفوكسل (Voxel Engine)](#build-your-own-voxel-engine)
 * [متصفح الويب](#build-your-own-web-browser)
 * [خادم الويب - Web Server](#build-your-own-web-server)
-* [غير مصنف](#uncategorized)
+* [غير مصنف](#غير-مصنف)
 <br></br>
 
 ## المصادر
@@ -44,6 +44,8 @@
 
 
 #### أنشئ `مُحرّك الرسوم ثلاثية الأبعاد`
+
+ > يُعنى بتقديم الرسومات ثلاثية الأبعاد بناءً على البيانات الهندسية والمواد الظاهرة، حيث يتم تحويل الأشكال الهندسية إلى صور واقعية بالأبعاد الثلاثة.
 
 * [**C++**: _مقدمة في تتبع الأشعة: طريقة بسيطة لإنشاء صور ثلاثية الأبعاد_](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
 * [**C++**: _كيف يعمل OpenGL: التقديم البرمجي للرسومات في 500 سطر من الكود_](https://github.com/ssloy/tinyrenderer/wiki)
@@ -59,6 +61,9 @@
 
 #### أنشئ `الواقع المعزز - Augmented Reality`
 
+
+> الواقع المعزز يُشير إلى تجربة مستخدم حيث يتم دمج العناصر الرقمية في البيئة المحيطة، مما يؤدي إلى تعزيز الواقع بإضافة معلومات إضافية أو عناصر تفاعلية.
+
 * [**C#**: _كيفية: دليل تطبيق واقع مُعزز للمبتدئين باستخدام Vuforia وUnity 3D_](https://www.youtube.com/watch?v=uXNjNcqW4kY) [فيديو]
 * [**C#**: _كيفية استخدام Unity ARCore_](https://www.youtube.com/playlist?list=PLKIKuXdn4ZMjuUAtdQfK1vwTZPQn_rgSv) [فيديو]
 * [**C#**: _دليل تعليمي للبوابة المُعززة باستخدام Unity_](https://www.youtube.com/playlist?list=PLPCqNOwwN794Gz5fzUSi1p4OqLU0HTmvn) [فيديو]
@@ -67,6 +72,8 @@
 * [**Python**: _الواقع المعزز باستخدام Python وOpenCV_](https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/)
 
 #### أنشئ `البلوكشين / العملة المشفرة`
+
+> هو برنامج يسمح للمستخدم بتحميل ومشاركة الملفات عبر شبكة الانترنت باستخدام بروتوكول BitTorrent، حيث يتم توزيع أجزاء الملفات بين المشاركين بدلاً من الاعتماد على مصدر واحد.
 
 * [**ATS**: _البلوكشين الوظيفي_](https://beta.observablehq.com/@galletti94/functional-blockchain)
 * [**C#**: _برمجة البلوكشين باستخدام لغة البرمجة C#_](https://programmingblockchain.gitbooks.io/programmingblockchain/)
@@ -92,6 +99,8 @@
 
 #### أنشئ `الروبوت - Robot`
 
+> برنامج حاسوبي يقوم بتنفيذ المهام بشكل أوتوماتيكي، وعادةً يتم استخدام الروبوتات لتكرار مهام محددة بدون تدخل بشري.
+
 * [**Haskell**: _اصنع الروبوت الخاص بك في IRC_](https://wiki.haskell.org/Roll_your_own_IRC_bot)
 * [**Java**: _كيفية إنشاء روبوت روسي مخيف على Twitter باستخدام لغة Java_](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)
 * [**Node.js**: _إنشاء روبوت بسيط للذكاء الاصطناعي في Facebook Messenger باستخدام API.ai في Node.js_](https://tutorials.botsfloor.com/creating-a-simple-facebook-messenger-ai-bot-with-api-ai-in-node-js-50ae2fa5c80d)
@@ -113,6 +122,8 @@
 
 #### أنشئ `أداة سطر الأوامر - CLI`
 
+> برنامج حاسوبي يتم تشغيله والتفاعل معه من خلال سطر الأوامر، حيث يمكن إدخال الأوامر يدويًا لتنفيذ الوظائف المختلفة.
+
 * [**Go**: _تصوير مساهمات git المحلية الخاصة بك باستخدام لغة Go_](https://flaviocopes.com/go-git-contributions/)
 * [**Go**: _إنشاء تطبيق سطر الأوامر باستخدام لغة Go: lolcat_](https://flaviocopes.com/go-tutorial-lolcat/)
 * [**Go**: _بناء أمر سطر أوامر CLI باستخدام لغة Go: cowsay_](https://flaviocopes.com/go-tutorial-cowsay/)
@@ -124,6 +135,8 @@
 
 
 #### أنشئ `قاعدة بيانات`
+
+> قاعدة بيانات تستخدم لتخزين وإدارة البيانات بطريقة منظمة، ويمكن الوصول إليها وتعديلها بسهولة.
 
 * [**C**: _لنقم ببناء قاعدة بيانات بسيطة_](https://cstack.github.io/db_tutorial/)
 * [**C#**: _ابنِ قاعدة بيانات خاصة بك_](https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database)
@@ -138,6 +151,8 @@
 
 #### أنشئ `دوكر - Docker`
 
+> برنامج يُستخدم لإدارة تطبيقات الحاويات، حيث يمكن تكوين وتشغيل التطبيقات بشكل معزول عن النظام الأساسي.
+
 * [**C**: _حاويات Linux في 500 سطر من الكود_](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 * [**Go**: _بناء حاوية خاصة بك باستخدام أقل من 100 سطر من لغة Go_](https://www.infoq.com/articles/build-a-container-golang)
 * [**Go**: _بناء حاوية من الصفر باستخدام لغة Go_](https://www.youtube.com/watch?v=8fi7uSYlOdc) [فيديو]
@@ -145,7 +160,9 @@
 * [**Python**: _تقليد مفهومي لـ دوكر، مكتوب بنسبة 100% باستخدام لغة Python_](https://github.com/tonybaloney/mocker)
 * [**Shell**: _دوكر محقق بحوالي 100 سطر من الأكواد bash_](https://github.com/p8952/bocker)
 
-#### أنشئ `محاكي - آلة افتراضية`
+#### أنشئ `محاكي - جهاز افتراضي`
+
+> جهاز افتراضي يمكنه تشغيل نظام تشغيل أو تطبيقات منفصلة عن نظام التشغيل الأصلي، مما يتيح اختبار برامج وتطبيقات في بيئة افتراضية.
 
 * [**C**: _مفسرات بايت كود منزلية_](https://medium.com/bumble-tech/home-grown-bytecode-interpreters-51e12d59b25c)
 * [**C**: آلة افتراضية  بلغة الـ C_](http://web.archive.org/web/20200121100942/https://blog.felixangell.com/virtual-machine-in-c/)
@@ -161,7 +178,9 @@
 * [**Python**: _أساسيات المحاكاة: كتابة محاكي / مفسر CHIP 8 الخاص بك_](http://omokute.blogspot.com.br/2012/06/emulation-basics-write-your-own-chip-8.html)
 * [**Rust**: _0dmg: تعلم البرمجة بلغة Rust من خلال بناء محاكي جزئي لجهاز Game Boy_](https://jeremybanks.github.io/0dmg/)
 
-#### أنشئ `Front-end Framework / Library`
+#### أنشئ `Front-end Framework / Library` 
+ 
+ > إطار عمل أو مكتبة برمجية تُستخدم لتطوير واجهة المستخدم والجانب الأمامي للتطبيقات والمواقع الإلكترونية.
 
 
 * [**JavaScript**: _WTF هو JSX (دعنا نبني مُحرِّك JSX)_](https://jasonformat.com/wtf-is-jsx/)
@@ -183,6 +202,8 @@
 * [**JavaScript**: _بناء مُحرِّك React مُخصَّص_](https://youtu.be/CGpMlWVcHok) [فيديو]
 
 #### أنشئ `لعبة`
+
+> لعبة إلكترونية تتطلب تفاعل اللاعبين مع بيئة افتراضية وتحقيق أهداف معينة.
 
 * [**C**: _أبطال العمل اليدوي_](https://handmadehero.org/)
 * [**C**: _كيف تبرمج لعبة NES باستخدام اللغة C_](https://nesdoug.com/)
@@ -221,6 +242,8 @@
 
 #### قم ببناء `Git` الخاص بك
 
+> نظام إدارة الإصدارات يُستخدم لتتبع وإدارة التغييرات في ملفات المشروعات البرمجية.
+
 * [**Haskell**: _إعادة تنفيذ "git clone" بلغة Haskell من الأساس_](http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/)
 * [**JavaScript**: _Gitlet_](http://gitlet.maryrosecook.com/docs/gitlet.html)
 * [**JavaScript**: _بناء GIT - تعلم GIT_](https://kushagra.dev/blog/build-git-learn-git/)
@@ -231,6 +254,8 @@
 
 #### أنشئ `Network Stack`
 
+> مجموعة من البرتوكولات والبرمجيات المسؤولة عن إدارة الاتصالات ونقل البيانات عبر الشبكات.
+
 * [**C**: _دليل Beej لبرمجة الشبكات_](http://beej.us/guide/bgnet/)
 * [**C**: _لنقم بكتابة مكدّس TCP/IP_](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 * [**C / Python**: _بناء شبكة VPN/Virtual Switch الخاصة بك_](https://github.com/peiyuanix/build-your-own-zerotier)
@@ -238,6 +263,9 @@
 
 
 #### أنشئ ` الشبكة العصبية - Neural Network`
+
+> شبكة حواسيبية تقتدر على التعلم من البيانات وتحليلها للقيام بمهام معقدة.
+
 
 * [**C#**: _Neural Network OCR_](https://www.codeproject.com/Articles/11285/Neural-Network-OCR)
 * [**F#**: _Building Neural Networks in F#_](https://towardsdatascience.com/building-neural-networks-in-f-part-1-a2832ae972e6)
@@ -255,6 +283,9 @@
 * [**Python**: _Neural Networks: Zero to Hero_](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 #### أنشئ `نظام تشغيل - Opertion System `
+
+> نظام تشغيل هو برنامج يدير ويُدير موارد الحاسوب مثل المعالج والذاكرة والتخزين ويُشغل التطبيقات.
+
 
 * [**Assembly**: _كتابة برنامج بدء تشغيل صغير جدًا على معمارية x86_](http://joebergeron.io/posts/post_two.html)
 * [**Assembly**: _Baking Pi – تطوير أنظمة التشغيل_](http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/index.html)
@@ -278,6 +309,8 @@
 
 #### انشئ `محرك فزيائي- Physics Engine`
 
+> برنامج يحاكي الفيزياء في العالم الافتراضي أو الألعاب الإلكترونية.
+
 * [**C**: _دليل تعليمي لفيزياء ألعاب الفيديو_](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
 * [**C++**: _سلسلة فيزياء الألعاب بواسطة Allen Chou_](http://allenchou.net/game-physics-series/)
 * [**C++**: _كيفية إنشاء محرك فيزياء مخصص_](https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715)
@@ -287,6 +320,9 @@
 * [**JavaScript**: _بناء محرك فيزياء ثنائي الأبعاد بسيط لألعاب JavaScript_](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/index.html)
 
 #### انشئ `لغة برمجة`
+
+> لغة برمجة هي مجموعة من القواعد والتعليمات التي تستخدم لكتابة البرامج الحاسوبية.
+
 
 * [**(أي لغة)**: _mal - Make a Lisp_](https://github.com/kanaka/mal#mal---make-a-lisp)
 * [**Assembly**: _Jonesforth_](https://github.com/nornagon/jonesforth/blob/master/jonesforth.S)
@@ -322,9 +358,7 @@
 * [**Python**: _كيفية كتابة مفسر Lisp في Python_](http://norvig.com/lispy.html)
 * [**Python**: _لنقم ببناء مفسر بسيط_](https://ruslanspivak.com/lsbasi-part1/)
 * [**Python**: _اصنع لغة برمجة مُفسَّرة بسيطة خاصة بك_](https://www.youtube.com/watch?v=dj9CBS3ikGA&list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD&index=1) [فيديو]
-* [**Python**: _من الشفرة المصدرية إلى الشفرة الآ
-
-لية: بناء مُتَرجِم الخاص بك من الصفر_](https://build-your-own.org/compiler/)
+* [**Python**: _من الشفرة المصدرية إلى الشفرة الآلية: بناء مُتَرجِم الخاص بك من الصفر_](https://build-your-own.org/compiler/)
 * [**Racket**: _Beautiful Racket: كيفية صنع لغات برمجة خاصة بك باستخدام Racket_](https://beautifulracket.com/)
 * [**Ruby**: _مُترجم من الصفر_](https://www.destroyallsoftware.com/screencasts/catalog/a-compiler-from-scratch)
 * [**Ruby**: _مُترجم لغة Markdown من الصفر بلغة Ruby_](https://blog.beezwax.net/2017/07/07/writing-a-markdown-compiler/)
@@ -334,6 +368,9 @@
 * [**TypeScript**: _بناء مُتَرجِم ويبأسمبلي الخاص بك_](https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html)
 
 #### انشئ `تعبير نمطي - Regex`
+
+> محرك البحث بتعبيرات العبارات العادية هو أداة تُستخدم للبحث عن نص مطابق لنمط محدد في سلاسل النصوص.
+
 
 * [**C**: _جهاز تطابق التعابير العادية_](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
 * [**C**: _تطابق التعابير العادية يمكن أن يكون بسيطًا وسريعًا_](https://swtch.com/~rsc/regexp/regexp1.html)
@@ -346,6 +383,8 @@
 
 #### انشئ `محرك بحث - Search Engine`
 
+> محرك بحث هو برنامج يسمح للمستخدمين بالبحث عن المعلومات في قواعد البيانات أو عبر الإنترنت.
+
 * [**CSS**: _محرك بحث في CSS_](https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97)
 * [**Python**: _بناء محرك بحث باستخدام Redis و redis-py_](http://www.dr-josiah.com/2010/07/building-search-engine-using-redis-and.html)
 * [**Python**: _بناء محرك فهرسة مساحة الفيكتور في Python_](https://boyter.org/2010/08/build-vector-space-search-engine-python/)
@@ -354,6 +393,8 @@
 * [**Python**: _العثور على الكلمات المهمة في النص باستخدام TF-IDF_](https://stevenloria.com/tf-idf/)
 
 #### انشئ `واجهة أوامر - Shell`
+
+> بيئة سطر الأوامر هي واجهة المستخدم التي تمكن المستخدم من التفاعل مع نظام التشغيل عبر أوامر نصية.
 
 * [**C**: _البرنامج التعليمي - كتابة واجهة أوامر برمجي بلغة C_](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 * [**C**: _لنبني واجهة أوامر!_](https://github.com/kamalmarhubi/shell-workshop)
@@ -365,6 +406,9 @@
 
 #### انشئ `محرك القوالب - Template Engine`
 
+> محرك القوالب هو أداة تستخدم لإنشاء وتحديد نماذج ثابتة تسمح بإنشاء صفحات ومحتوى ديناميكي بناءً عليها.
+
+
 * [**JavaScript**: _محرك القوالب JavaScript في 20 سطرًا فقط_](http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line)
 * [**JavaScript**: _فهم JavaScript Micro-Templating_](https://medium.com/wdstack/understanding-javascript-micro-templating-f37a37b3b40e)
 * [**Python**: _النهج: بناء محرك قوالب لعبوي في Python_](http://alexmic.net/building-a-template-engine/)
@@ -372,6 +416,8 @@
 * [**Ruby**: _كيفية كتابة محرك قوالب في أقل من 30 سطرًا من الكود_](http://bits.citrusbyte.com/how-to-write-a-template-library/)
 
 #### انشئ `محرر النصوص`
+
+> برنامج يستخدم لتحرير وتعديل النصوص والملفات النصية.
 
 * [**C**: _بناء محرر النصوص الخاص بك_](https://viewsourcecode.org/snaptoken/kilo/)
 * [**C++**: _تصميم محرر نصوص بسيط_](http://www.fltk.org/doc-1.1/editor.html)
@@ -382,20 +428,28 @@
 
 #### انشئ `نظام التعرف البصري`
 
+> نظام التعرف البصري هو برنامج يستخدم لتحليل الصور والفيديو والتعرف على الأشياء والأنماط الموجودة فيها.
+
 * [**Python**: _تطوير نظام تعرف لوحة الترخيص بالتعلم الآلي باستخدام Python_](https://blog.devcenter.co/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd)
 * [**Python**: _بناء نظام تعرف الوجوه باستخدام تعلم عميق في Tensorflow_](https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8)
 
 #### انشئ ` محرك الفوكسل - Voxel Engine`
+
+> محرك الفوكسل هو برنامج يُستخدم لتحقيق رسومات ثلاثية الأبعاد من خلال مكعبات صغيرة تُسمى فوكسل.
 
 * [**C++**: _لنصنع محرك فوكسل_](https://sites.google.com/site/letsmakeavoxelengine/home)
 * [**Java**: _برنامج تعليمي لمحرك فوكسل باستخدام Java_](https://www.youtube.com/watch?v=QZ4Vk2PkPZk&list=PL80Zqpd23vJfyWQi-8FKDbeO_ZQamLKJL) [فيديو]
 
 #### انشئ `متصفح الويب - Web Browser`
 
+> متصفح الويب هو برنامج يُستخدم لعرض وتصفح مواقع الويب والصفحات الإلكترونية.
+
 * [**Rust**: _لنبني محرك تصفح_](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
 * [**Python**: _هندسة المتصفح_](https://browser.engineering)
 
 #### انشئ `خادم الويب - Web Server`
+
+> خادم الويب هو برنامج يستقبل طلبات العملاء ويُدير توصيل المحتوى والصفحات عبر الإنترنت.
 
 * [**C#**: _كتابة خادم ويب من البداية_](https://www.codeproject.com/Articles/859108/Writing-a-Web-Server-from-Scratch)
 * [**Node.js**: _لنكتب خادم ويب من البداية باستخدام تيارات NodeJS_](https://www.codementor.io/ziad-saab/let-s-code-a-web-server-from-scratch-with-nodejs-streams-h4uc9utji)
@@ -409,6 +463,8 @@
 * [**Ruby**: _بناء خادم بروتوكول ويب سوكتس بسيط من البداية باستخدام Ruby_](http://blog.honeybadger.io/building-a-simple-websockets-server-from-scratch-in-ruby/)
 
 #### غير مصنف
+
+> هذه بعض المصادر التي مازالت قيد التصنيف
 
 * [**(أي لغة برمجة)**: _من NAND إلى Tetris: بناء حاسوب حديث من الأساسيات_](http://nand2tetris.org/)
 * [**Alloy**: _سياسة المنشأ نفسه_](http://aosabook.org/en/500L/the-same-origin-policy.html)
